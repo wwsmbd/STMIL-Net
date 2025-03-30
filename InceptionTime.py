@@ -49,7 +49,7 @@ import torch.optim as optim
 
 
 
-# InceptionTime Feature Extractor 모델 사용
+# InceptionTime Feature Extractor
 class InceptionTimeFeatureExtractor(nn.Module):
     """InceptionTime feature extractor implementation."""
     def __init__(self, n_in_channels: int, out_channels: int = 32, padding_mode: str = "replicate"):
